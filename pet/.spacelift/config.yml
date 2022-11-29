@@ -2,7 +2,7 @@ version: 1
 module_version: 0.1.7
 
 test_defaults:
-  after_init: ["ls -la ../../../"]
+  after_init: ["ls -la ../../"]
 
 tests:
   - name: Default pet test
